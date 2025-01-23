@@ -214,8 +214,115 @@ button.submit-btn {
 }
 .app {
   font-weight: 400;
-  font-size: larger;
+  font-size: 20px;
+  text-align: center;
+  width: 900px;
 }
 .sign {
   font-size: 16px;
+}
+
+/* Responsive Additions */
+
+/* For tablets and smaller desktops (max width: 768px) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: center; /* Center-align navbar items */
+    padding: 10px;
+    flex-wrap: wrap; /* Allow items to stack */
+  }
+
+  .logo {
+    width: 120px; /* Adjust logo size */
+  }
+
+  .container {
+    margin-top: 80px; /* Adjust container margin */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bubble {
+    width: 200px; /* Reduce bubble sizes */
+    height: 200px;
+  }
+
+  .bubble-1 {
+    top: 15%;
+    left: 10%;
+  }
+
+  .bubble-2 {
+    bottom: 20%;
+    right: 10%;
+  }
+
+  .bubble-3 {
+    top: 50%;
+    right: 5%;
+  }
+
+  h1 {
+    font-size: 2.4em; /* Adjust heading font size */
+  }
+
+  .buttons .button {
+    font-size: 0.9em;
+    padding: 10px 20px; /* Adjust button size */
+  }
+
+  input[type="email"] {
+    width: 90%; /* Make input fields more flexible */
+  }
+
+  footer {
+    font-size: 14px; /* Smaller footer text */
+  }
+}
+
+/* For mobile devices (max width: 480px) */
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: center;
+    padding: 5px;
+  }
+
+  .logo {
+    width: 100px; /* Smaller logo size */
+  }
+
+  .container {
+    margin-top: 60px; /* Reduce top margin */
+    padding: 10px;
+    text-align: center; /* Center align content */
+  }
+
+  .bubble {
+    width: 120px; /* Further reduce bubble sizes */
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 2em; /* Smaller heading font */
+  }
+
+  input[type="email"] {
+    width: 100%; /* Input field adjusts to full width */
+  }
+
+  .buttons .button {
+    font-size: 0.8em;
+    padding: 8px 15px; /* Adjust button size */
+  }
+
+  footer {
+    font-size: 12px; /* Smaller footer font size */
+    text-align: center; /* Center footer text */
+  }
+
+  .app {
+    font-size: 16px;
+    width: 100%; /* Ensure app description fits smaller screens */
+  }
 }
