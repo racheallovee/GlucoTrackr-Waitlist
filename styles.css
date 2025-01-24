@@ -308,21 +308,21 @@ button.submit-btn {
   }
 
   input[type="email"] {
-    width: 100%; /* Input field adjusts to full width */
+    width: 100%;
   }
 
   .buttons .button {
     font-size: 0.8em;
-    padding: 8px 15px; /* Adjust button size */
+    padding: 8px 15px;
   }
 
   footer {
-    font-size: 12px; /* Smaller footer font size */
-    text-align: center; /* Center footer text */
+    font-size: 12px;
+    text-align: center;
   }
 
   .app {
     font-size: 16px;
-    width: 100%; /* Ensure app description fits smaller screens */
+    width: 100%;
   }
 }
